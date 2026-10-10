@@ -1,0 +1,55 @@
+
+[window]
+startup_mode = "Windowed"
+padding = { x = 2, y = 0 }
+opacity = 0.95 
+
+[font]
+size = 10
+normal = { family = "FiraCode Nerd Font Mono", style = "Regular" }
+bold = { family = "FiraCode Nerd Font Mono", style = "Bold" }
+italic = { family = "FiraCode Nerd Font Mono", style = "Italic" }
+bold_italic = { family = "FiraCode Nerd Font Mono", style = "Bold Italic" }
+
+[keyboard]
+bindings = [
+  { key = "T", mods = "Control|Shift", action = "SpawnNewInstance" },
+]
+# Theme is named gotham from the "github.com/alacritty/alacritty-theme" page
+# (Github Dark High Contrast) Colors for Alacritty
+# Default colors
+[colors.primary]
+background = '#0a0c10'
+foreground = '#f0f3f6'
+
+# Normal colors
+[colors.normal]
+black = '#7a828e'
+red = '#ff9492'
+green = '#26cd4d'
+yellow = '#f0b72f'
+blue = '#71b7ff'
+magenta = '#cb9eff'
+cyan = '#39c5cf'
+white = '#d9dee3'
+
+# Bright colors
+[colors.bright]
+black = '#9ea7b3'
+red = '#ffb1af'
+green = '#4ae168'
+yellow = '#f7c843'
+blue = '#91cbff'
+magenta = '#cb9eff'
+cyan = '#39c5cf'
+white = '#d9dee3'
+
+# Cursor color
+[colors.cursor]
+text = "#000000"
+cursor = "#aaff3b"
+
+[cursor]
+style = { shape = "Block", blinking = "Always"}
+blink_timeout = 0
+blink_interval = 500

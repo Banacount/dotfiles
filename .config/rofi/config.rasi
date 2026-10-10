@@ -1,0 +1,21 @@
+configuration {
+    font: "Iosevka Nerd Font 14";
+}
+
+//@theme "/home/excalibur/.local/share/rofi/themes/rounded-nord-dark.rasi"
+
+//@theme "/usr/share/rofi/themes/Arc-Dark.rasi"
+
+//@theme "/usr/share/rofi/themes/sidebar.rasi"
+
+//@theme "/home/excalibur/.local/share/rofi/themes/squared-everforest.rasi"
+
+//@theme "/usr/share/rofi/themes/Arc-Dark.rasi"
+
+//@theme "/home/excalibur/.local/share/rofi/themes/johval-squared.rasi"
+
+//@theme "/usr/share/rofi/themes/Adapta-Nokto.rasi"
+
+//@theme "/home/excalibur/.local/share/rofi/themes/johval-squared.rasi"
+
+@theme "/home/excalibur/.local/share/rofi/themes/dang-it.rasi"
