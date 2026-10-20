@@ -2,6 +2,7 @@
 # export PATH=$HOME/bin:$HOME/.local/bin:/usr/local/bin:$PATH
 # Path to your Oh My Zsh installation.
 export ZSH="$HOME/.oh-my-zsh"
+export _JAVA_AWT_WM_NONREPARENTING=1
 
 # Set name of the theme to load --- if set to "random", it will
 # load a random theme each time Oh My Zsh is loaded, in which case,
@@ -115,6 +116,7 @@ alias -g addmusic="source ~/Music/add_music.sh"
 alias -g start-grind="termdown '0h 40m 30s' && notify-send 'You can now take a break.' 'Work time ended. '"
 alias -g start-break="termdown '0h 10m 30s' && notify-send 'Back to work.' 'Start work again fool lmao.'"
 alias -g minecraft="java -jar ~/Games/TLauncher.v17/TLauncher.jar"
+alias -g dotfiles="nvim ~/.dotfiles"
 # alias awetheme="sudo vim /usr/share/awesome/themes/default/theme.lua"
 
 # the bible app
